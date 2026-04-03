@@ -1,0 +1,13 @@
+<svg width="800" height="220" viewBox="0 0 800 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="220" fill="#F7F8FB"/>
+  <rect x="40" y="32" width="150" height="150" rx="30" fill="#1F7A54"/>
+  <rect x="62" y="52" width="106" height="78" rx="18" fill="white"/>
+  <path d="M114.5 64L77 81H152L114.5 64Z" fill="#1F7A54"/>
+  <rect x="88" y="87" width="18" height="22" fill="#1F7A54"/>
+  <rect x="123" y="87" width="18" height="22" fill="#1F7A54"/>
+  <rect x="107" y="93" width="12" height="16" fill="white"/>
+  <path d="M60 120L74 120L60 139V120Z" fill="white"/>
+  <path d="M220 62H236V158H220V62Z" fill="#D9DEE8"/>
+  <text x="268" y="110" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="500">Build<tspan fill="#1F7A54" font-weight="700">Bot</tspan></text>
+  <text x="268" y="146" fill="#667085" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="400">Invisible ERP for field-based businesses</text>
+</svg>
