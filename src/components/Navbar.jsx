@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
-import { Building2 } from 'lucide-react'
+import { Building2, GitCompareArrows, Landmark } from 'lucide-react'
 
 const navLinkStyles = ({ isActive }) =>
   `rounded-full px-3 py-1.5 text-sm font-medium transition ${
@@ -19,11 +19,20 @@ export function Navbar() {
 
         <nav className="hidden items-center gap-2 sm:flex">
           <NavLink to="/compare" className={navLinkStyles}>
-            Compare
+            <span className="inline-flex items-center gap-1.5">
+              <GitCompareArrows size={14} />
+              Compare
+            </span>
           </NavLink>
-          <button className="rounded-full px-3 py-1.5 text-sm font-medium text-slate-600 transition hover:bg-slate-100 hover:text-slate-900">
-            For Developers
-          </button>
+          <Link
+            to="/#developers"
+            className="rounded-full px-3 py-1.5 text-sm font-medium text-slate-600 transition hover:bg-slate-100 hover:text-slate-900"
+          >
+            <span className="inline-flex items-center gap-1.5">
+              <Landmark size={14} />
+              For Developers
+            </span>
+          </Link>
         </nav>
 
         <button className="rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-700">
