@@ -1,4 +1,5 @@
 import { comparisonConcepts, properties } from '../data/properties'
+import buildBotLogo from '../assets/buildbot-logo.svg'
 
 const compareFields = [
   { key: 'expectedAppreciation', label: 'Expected Appreciation' },
@@ -14,7 +15,10 @@ export function CompareView() {
   return (
     <section className="space-y-5">
       <div>
-        <p className="text-sm font-semibold uppercase tracking-widest text-indigo-600">Comparison Tool</p>
+        <div className="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1">
+          <img src={buildBotLogo} alt="BuildBot logo" className="h-4 w-4 rounded-sm object-cover" />
+          <p className="text-sm font-semibold uppercase tracking-widest text-indigo-600">Comparison Tool</p>
+        </div>
         <h1 className="mt-2 text-3xl font-semibold text-slate-900">Compare properties and investment strategies side by side</h1>
         <p className="mt-2 max-w-3xl text-sm text-slate-600">
           Review 2-3 options at once, including direct property picks and conceptual choices like apartment vs plotted land.
